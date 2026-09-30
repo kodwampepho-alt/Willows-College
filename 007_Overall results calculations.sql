@@ -30,3 +30,5 @@ SET subjects_failed =
     + CASE WHEN life_orientation_mark < 40 THEN 1 ELSE 0 END
     + CASE WHEN information_technology_mark < 40 THEN 1 ELSE 0 END
     + CASE WHEN agricultural_science_mark < 40 THEN 1 ELSE 0 END;
+
+   
